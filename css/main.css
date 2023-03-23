@@ -928,7 +928,7 @@ html,body{
     }
     .mute_volume,
     .volume_slider,
-    input[type="range"]::-moz-range-thumb,
+    .input[type="range"]::-moz-range-thumb,
     .volume_slider::-webkit-slider-thumb{
         display: none;
     }

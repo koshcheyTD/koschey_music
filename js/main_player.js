@@ -113,7 +113,8 @@ function menuTransform(e){
     menuBtn.classList.toggle('active');
     playlistTab.classList.toggle('open');
     artist.classList.toggle('active');
-    track.classList.toggle('active')
+    track.classList.toggle('active');
+    imgAlbum.classList.toggle('active');
 }
 function playlistAction1(){
     songIndex=0;

@@ -773,7 +773,6 @@ html,body{
         transform: rotate(360deg);
     }
 }
-
 @media (max-width:375px){
     html,body{
         width: 375px;
@@ -953,3 +952,4 @@ html,body{
         left: -1px;
     }
 }
+

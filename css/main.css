@@ -236,9 +236,8 @@ html,body{
     border: 5px solid #691b1b;
 }
     .icon_disc{
-        
-        max-width: 296px;
-        max-height: 296px;
+        width: 296px;
+        height: 296px;
         background: #0F0E0E;
         border: 6px solid #691b1b;
         display: flex;
@@ -370,7 +369,7 @@ html,body{
         .menu_transform1{
             
             width: 45px;
-            height: 5.3px;
+            height: 5px;
             background-color: #691b1b;
             transition: 0.2s;
         }
@@ -553,6 +552,7 @@ html,body{
                     max-width: 350px;
                     top: 32px;
                     left: 480px;
+                    font-size: 48px;
                 }
                 .text_head{
                     max-width: 350px;
@@ -773,6 +773,7 @@ html,body{
         transform: rotate(360deg);
     }
 }
+
 @media (max-width: 375px){
     html,body{
         width: 100%;
@@ -1078,8 +1079,9 @@ html,body{
 .contact_address{
     margin-top: 68%;
     margin-left: -120px;
+    
 }
 .contact_icon_seo{
     margin-top: 15%;
+    
 }
-

@@ -935,13 +935,11 @@ html,body{
     .playlist_tab{
         width: 300px;
         height: 100px;
-        
         font-size: 20px;
     }
     .mute_volume,
     .volume_slider,
-    .input,
-    .volume_slider{
+    .input{
         display: none;
     }
     .instruments{

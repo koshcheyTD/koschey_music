@@ -53,7 +53,7 @@ html,body{
     justify-content: space-between;
     width: 100%;
     max-width: 1400px;
-    height: 14%;
+    height: 8%;
     max-height: 95px;
     column-gap: 40px;
     row-gap: 20px;
@@ -69,28 +69,28 @@ html,body{
         display: flex;
 }
 .icon_h_w{
-    height: 90px;
-    width: 90px;
+    height: 77px;
+    width: 77px;
 }
         .icon_menu{
+            position: absolute;
             display: flex;
             align-items: center;
-            margin-left: 15%;
-            width: 88px;
-            height: 88px;
+            left: 2%;
+            width: 48px;
+            height: 48px;
         }
         .icon_menu:hover{
-            margin-top: 1.5%;
-            margin-left: 17%;
-            width: 86px;
-            height: 86px;
+            
+            width: 46px;
+            height: 46px;
             color: #691b1b;
             filter:drop-shadow(0px 0px 8px #724f4f);
             transition: 0.1s;
             }
         .nav_icon_menu{
             position: fixed;
-            top: 15.5%;
+            top: 8%;
             left: 0%;
             width: 235px;
             height: 458px;
@@ -123,17 +123,20 @@ html,body{
                 filter:drop-shadow(0px 0px 2px #8d0000);
             }
         .line1{
-            margin-top: -4px;
+            margin-top: -32px;
             margin-left: 5px;
-            width: 72px;
+            width: 40px;
             height: 0px;
             mix-blend-mode: multiply;
             border: 2px solid #691b1b;
             transform: rotate(90deg);
+            opacity: 0.75;
         }
         .logo{
+            margin-top: -32px;
+            margin-left: 15px;
             font-style: normal;
-            font-size: 44px;
+            font-size: 38px;
             line-height: 45px;
             color: rgba(0, 0, 0, 0.85);
         }
@@ -144,7 +147,7 @@ html,body{
                         transition: all 0.3s;
         }
         .logo a:hover{
-            font-size: 46px;
+            font-size: 40px;
                 color: #691b1b;
                 transition: 0.2s;
                 filter:drop-shadow(0px 0px 2px #8d0000);
@@ -170,47 +173,49 @@ html,body{
             height: 36px;
         }
         .galery{
-            font-size: 38px;
+            margin-top: -15px;
+            font-size: 34px;
             line-height: 36px;
             color: rgba(0, 0, 0, 0.85);
         }
         .galery a:hover{
-            font-size: 36px;
+            font-size: 32px;
             color: #691b1b;
             transition: 0.2s;
             filter:drop-shadow(0px 0px 2px #8d0000);
             }
         .line2{
-                        margin-top: 14px;
-                        width: 72px;
-                        height: 0px;
-                        mix-blend-mode: multiply;
-                        border: 2px solid #691b1b;
-                        transform: rotate(90deg);
+            width: 40px;
+            height: 0px;
+            mix-blend-mode: multiply;
+            border: 2px solid #691b1b;
+            transform: rotate(90deg);
+            opacity: 0.75;
         }
         .text{
-            font-size: 38px;
+            margin-top: -15px;
+            font-size: 34px;
             line-height: 36px;
             color: rgba(0, 0, 0, 0.85);
         }
         .text a:hover{
-            font-size: 36px;
+            font-size: 32px;
             color: #691b1b;
             transition: 0.2s;
             filter:drop-shadow(0px 0px 2px #8d0000);
             }
         .line3{
-                        margin-top: 14px;
-                        width: 72px;
-                        height: 0px;
-                        mix-blend-mode: multiply;
-                        border: 2px solid #AD3838;
-                        transform: rotate(90deg);
+            width: 40px;
+            height: 0px;
+            mix-blend-mode: multiply;
+            border: 2px solid #691b1b;
+            transform: rotate(90deg);
+            opacity: 0.75;
         }
+        
         .contact{
-            margin-right: 37px;
-            font-style: normal;
-            font-size: 38px;
+            margin-top: -15px;
+            font-size: 34px;
             line-height: 36px;
             color: rgba(0, 0, 0, 0.85);
         }
@@ -223,7 +228,7 @@ html,body{
 
 .audio_main{
     position: absolute;
-    top: 2.8%;
+    top: 1.5%;
     padding: 32px;
     display: flex;
     justify-content: space-around;
@@ -463,10 +468,10 @@ html,body{
         }
         .info_main{
                 position: absolute;
-                top: 12%;
+                top: 10.35%;
                 width: 100%;
                 max-width: 1044px;
-                height: 527px;
+                height: 616px;
                 background: #b8b6b6;
                 mix-blend-mode: normal;
                 opacity: 0.8;
@@ -510,7 +515,7 @@ html,body{
                 top: 24.9%;
                 width: 100%;
                 max-width: 1044px;
-                height: 800px;
+                height: 818px;
                 background: hsla(0, 2%, 67%, 0.8);
                 mix-blend-mode: normal;
                 border: 5px solid #691b1b;
@@ -541,7 +546,7 @@ html,body{
                 top: 44.1%;
                 width: 100%;
                 max-width: 1044px;
-                height: 2027px;
+                height: 2040px;
                 background: hsla(0, 2%, 67%, 0.8);
                 mix-blend-mode: normal;
                 
@@ -804,12 +809,12 @@ html,body{
     .icon_menu{
         width: 40px;
         height: 40px;
-        margin-top: 4%;
-        margin-left: 10%;
+        margin-top: 1%;
+        margin-left: 3%;
     }
     .icon_menu:hover{
-            margin-top: 4%;
-            margin-left: 10%;
+            margin-top: 1%;
+            margin-left: 3%;
             width: 40px;
             height: 40px;
             color: #691b1b;
@@ -819,8 +824,8 @@ html,body{
     .logo{
         position: absolute;
         font-size: 30px;
-        top: -0.1%;
-        left: 42%;
+        
+        left: 40%;
     }
     .logo a:hover{
             font-size: 30px;
@@ -997,6 +1002,7 @@ html,body{
 .info_main{
     top: 11.5%;
     width: 350px;
+    height: 530px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1020,6 +1026,7 @@ html,body{
 .galery_main{
     top: 25.5%;
     width: 350px;
+    height: 800px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -1131,6 +1138,7 @@ html,body{
     padding-right: 40px;
     display: flex;
     flex-direction: row;
+    
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -1141,6 +1149,7 @@ html,body{
     display: none;
 }
 .contact_icon_seo{
-    margin-top: 40%;  
+    margin-top: 40%;
+    
 }
 }

@@ -819,7 +819,7 @@ html,body{
     .logo{
         position: absolute;
         font-size: 30px;
-        top: -71%;
+        top: -0.1%;
         left: 42%;
     }
     .logo a:hover{

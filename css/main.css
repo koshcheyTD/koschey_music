@@ -852,7 +852,7 @@ html,body{
         display: none;
     }
     .nav_icon_menu{
-        top: 6%;
+        top: 50px;
         width: 170px;
         height: 300px;
         border: 2px solid #691b1b;

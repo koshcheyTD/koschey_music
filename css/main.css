@@ -971,8 +971,7 @@ html,body{
     }
     .mute_volume,
     .volume_slider,
-    .input[type="range"]::-moz-range-thumb,
-    .volume_slider::-webkit-slider-thumb{
+    .input{
         display: none;
     }
     .instruments{

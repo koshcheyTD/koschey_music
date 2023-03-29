@@ -30,7 +30,7 @@ html,body{
 #scrollTop{
     position: fixed;
     bottom: 13%;
-    right: 3.8%;
+    left: 90%;
     z-index: 5;
 }
 .scroll{
@@ -128,7 +128,7 @@ html,body{
             width: 72px;
             height: 0px;
             mix-blend-mode: multiply;
-            border: 2px solid #AD3838;
+            border: 2px solid #691b1b;
             transform: rotate(90deg);
         }
         .logo{
@@ -185,7 +185,7 @@ html,body{
                         width: 72px;
                         height: 0px;
                         mix-blend-mode: multiply;
-                        border: 2px solid #AD3838;
+                        border: 2px solid #691b1b;
                         transform: rotate(90deg);
         }
         .text{
@@ -542,9 +542,9 @@ html,body{
                 width: 100%;
                 max-width: 1044px;
                 height: 2027px;
-                background: #b8b6b6;
+                background: hsla(0, 2%, 67%, 0.8);
                 mix-blend-mode: normal;
-                opacity: 0.8;
+                
                 border: 5px solid #691b1b;
             }
                 .versus_head{
@@ -575,7 +575,7 @@ html,body{
                     background: #c2c2c2;
                     mix-blend-mode: normal;
                     opacity: 1.0;
-                    border: 5px solid #531919;
+                    border: 5px solid #691b1b;
                 }
                 .next_versus{
                     position: absolute;
@@ -676,7 +676,7 @@ html,body{
             }
                 .contact_head{
                     margin-top: 3%;
-                    justify-content: center;
+                    
                     font-size: 48px;
                     line-height: 54px;
                     display: flex;
@@ -689,8 +689,9 @@ html,body{
                     justify-content: space-between;
                 }
                 .contact_menu{
-                    margin-top: 5%;
-                    margin-left: 250px;
+                    position: absolute;
+                    top: 30%;
+                    left: 15%;
                     font-size: 20px;
                 }
                     .contact_menu_li{
@@ -714,7 +715,7 @@ html,body{
                         filter:drop-shadow(0px 0px 30px #8d0000);
                     } 
                 .contact_icon_seo{
-                    margin-top: 2%;
+                    margin-top: 5%;
                     display: flex;
                     align-items: center;
                     flex-direction: column;
@@ -777,27 +778,28 @@ html,body{
 @media (max-width: 450px){
     html,body{
         width: 100%;
-        height: 4000px;
+        height: 3900px;
     }
     .main{
-        position: fixed;
+        position: absolute;
         
         width: 375px;
-        height: 1300px;
+        height: 3900px;
         background: url(./image/background.jpg);
         background-size: 375px 1300px;
     }
     #scrollTop{
-        position: fixed;
-        top: 900px;
-        left: 300px;
+        
+        
+        left: 88%;
         
     }
     .nav{
-        width: 375px;
+        width: 100%;
         height: 50px;
         border: 2px solid #691b1b;
-        
+        display: flex;
+        justify-content: space-between;
     }
     .icon_menu{
         width: 40px;
@@ -805,11 +807,27 @@ html,body{
         margin-top: 4%;
         margin-left: 10%;
     }
+    .icon_menu:hover{
+            margin-top: 4%;
+            margin-left: 10%;
+            width: 40px;
+            height: 40px;
+            color: #691b1b;
+            filter:drop-shadow(0px 0px 8px #724f4f);
+            transition: 0.1s;
+            }
     .logo{
+        position: absolute;
         font-size: 30px;
-        margin-top: -40px;
-        margin-left: 75px;
+        top: -0.1%;
+        left: 42%;
     }
+    .logo a:hover{
+            font-size: 30px;
+            color: #691b1b;
+            transition: 0.2s;
+            filter:drop-shadow(0px 0px 2px #8d0000);
+            }
     .line1{
         display: none;
     }
@@ -829,9 +847,10 @@ html,body{
         display: none;
     }
     .nav_icon_menu{
-        top: 2.4%;
+        top: 5.4%;
         width: 170px;
         height: 300px;
+        border: 2px solid #691b1b;
     }
     .nav_menu{
         font-size: 20px;
@@ -840,7 +859,7 @@ html,body{
         padding: 9px;
     }
     .audio_main{
-        top: 1.5%;
+        top: 1.6%;
         width: 350px;
         flex-direction: column;
         align-items: center;
@@ -885,7 +904,7 @@ html,body{
     }
     .playlist{
         position: absolute;
-        width: 300px;
+        width: 270px;
         height: 100px;
         top: -85px;
         left: -75px;
@@ -893,12 +912,24 @@ html,body{
     }
     .playlist.open{
         position: absolute;
-        width: 300px;
+        width: 270px;
         height: 100px;
         top: -85px;
         left: -75px;
     }
-    
+    .playlist_tab1,
+    .playlist_tab2,
+    .playlist_tab3{
+        width: 200px;
+    }
+    .playlist_track1:hover,
+    .playlist_track2:hover,
+    .playlist_track3:hover{
+            font-size: 20px;
+            color: #8d0000;
+            transition: 0.3s;
+            filter:drop-shadow(0px 0px 30px #8d0000);
+        }
     .menu_btn{
         position: absolute;
         width: 20px;
@@ -927,19 +958,21 @@ html,body{
         transform: translateY(6px) rotate(45deg);
     }
     .playlist_tab.open{
-        width: 300px;
+        width: 270px;
         height: 100px;
         
         font-size: 20px;
     }
     .playlist_tab{
-        width: 300px;
+        width: 270px;
         height: 100px;
+        
         font-size: 20px;
     }
     .mute_volume,
     .volume_slider,
-    .input{
+    .input[type="range"]::-moz-range-thumb,
+    .volume_slider::-webkit-slider-thumb{
         display: none;
     }
     .instruments{
@@ -961,9 +994,9 @@ html,body{
         height: 6px;
         left: -1px;
     }
-}
+
 .info_main{
-    top: 11%;
+    top: 11.5%;
     width: 350px;
     flex-direction: column;
     align-items: center;
@@ -986,7 +1019,7 @@ html,body{
     font-size: 50px;
 }
 .galery_main{
-    top: 24.5%;
+    top: 25.5%;
     width: 350px;
     flex-direction: column;
     align-items: center;
@@ -1001,8 +1034,11 @@ html,body{
     margin-left: 1%;
     width: 98%;
 }
+.fotorama__video-close::after{
+    margin-left: -50px;
+}
 .versus_main{
-    top: 45%;
+    top: 46.5%;
     width: 350px;
     height: 1700px;
     flex-direction: column;
@@ -1021,6 +1057,12 @@ html,body{
     width: 95%;
     height: 1500px;
 }
+.text_head{
+    width: 100px;
+    font-size: 24px;
+    margin-left: 20px;
+    color: #000000;
+}
 .versus_container{
     position: relative;
     top: 35px;
@@ -1030,12 +1072,20 @@ html,body{
     top: -6%;
     left: 87%;
     width: 15px;
-    height: 10px;
+    height: 15px;
 }
 .prev_versus{
     top: -6%;
     left: 2%;
     width: 15px;
+    height: 15px;
+}
+.slick-dots li button{
+    width: 5px;
+    height: 5px;
+}
+.slick-dots .slick-active button {
+    width: 10px;
     height: 10px;
 }
 .slick-list,
@@ -1062,24 +1112,36 @@ html,body{
     top: 1520px;
     left: 155px;
 }
+
 .contact_main{
-    top: 88.1%;
-    height: 475px;
+    top: 90.6%;
+    height: 375px;
 }
 .contact_head{
     font-size: 24px;
 }
-.contact_menu{
-    
-    margin-left: 150px;
-    
+.contact_content{
+    margin-top: 35px;
 }
-.contact_address{
-    margin-top: 68%;
-    margin-left: -120px;
-    
+.contact_ul1{
+    width: 300px;
+}
+.contact_menu{
+    left: 0%;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact_menu_li{
+    padding: 30px;
+}
+.contact_ul2{
+    display: none;
 }
 .contact_icon_seo{
-    margin-top: 15%;
-    
+    margin-top: 40%;  
+}
 }

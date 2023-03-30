@@ -780,6 +780,740 @@ html,body{
     }
 }
 
+@media (max-width: 780px){
+    html,body{
+        width: 100%;
+        height: 3900px;
+    }
+    .main{
+        position: absolute;
+        
+        width: 780px;
+        height: 4050px;
+        background: url(./image/background.jpg);
+        background-size: 780px 2100px;
+    }
+    #scrollTop{
+        
+        
+        left: 88%;
+        
+    }
+    .nav{
+        width: 100%;
+        height: 50px;
+        border: 2px solid #691b1b;
+        display: flex;
+        justify-content: space-between;
+    }
+    .icon_menu{
+        width: 40px;
+        height: 40px;
+        margin-top: 0.5%;
+        margin-left: 1%;
+    }
+    .icon_menu:hover{
+            margin-top: 1%;
+            margin-left: 3%;
+            width: 40px;
+            height: 40px;
+            color: #691b1b;
+            
+            transition: 0.1s;
+            }
+    .logo{
+        position: absolute;
+        font-size: 30px;
+        
+        left: 43%;
+    }
+    .logo a:hover{
+            font-size: 30px;
+            color: #691b1b;
+            transition: 0.2s;
+            filter:drop-shadow(0px 0px 2px #8d0000);
+            }
+    .line1{
+        display: none;
+    }
+    .line2{
+        display: none;
+    }
+    .line3{
+        display: none;
+    }
+    .galery{
+        display: none;
+    }
+    .text{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .nav_icon_menu{
+        top: 50px;
+        width: 170px;
+        height: 300px;
+        border: 2px solid #691b1b;
+    }
+    .nav_menu{
+        font-size: 20px;
+    }
+    .nav_menu1{
+        padding: 9px;
+    }
+    .audio_main{
+        top: 1.6%;
+        width: 600px;
+        
+    }
+    .icon_disc{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 8%;
+        left: 5%;
+        border: 3px solid #691b1b;
+    }
+    .icon_disc.active{
+        
+        transition: 0.2s;
+    }
+    .img_album{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        
+    }
+    .player_button{
+        position: absolute;
+        top: 60%;
+        left: 45%;
+        width: 200px;
+        height: 100px;
+    }
+    .name{
+        position: absolute;
+        width: 200px;
+        font-size: 22px;
+        top: -210%;
+        left: -5%;
+    }
+    .track{
+        position: absolute;
+        width: 200px;
+        font-size: 20px;
+        top: -160%;
+        left: -5%;
+    }
+    .playlist{
+        position: absolute;
+        width: 270px;
+        height: 100px;
+        top: -85px;
+        left: 10px;
+        
+    }
+    .playlist.open{
+        position: absolute;
+        width: 270px;
+        height: 100px;
+        top: -85px;
+        left: 10px;
+    }
+    .playlist_tab1,
+    .playlist_tab2,
+    .playlist_tab3{
+        width: 200px;
+    }
+    .playlist_track1:hover,
+    .playlist_track2:hover,
+    .playlist_track3:hover{
+            font-size: 22px;
+            color: #8d0000;
+            transition: 0.3s;
+            filter:drop-shadow(0px 0px 30px #8d0000);
+        }
+    .menu_btn{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: -190px;
+        left: 130%;
+    }
+    .menu_transform1{
+        width: 20px;
+        height: 2px;
+    }
+    .menu_transform2{
+        width: 20px;
+        height: 2px;
+        transform: translateY(5px);
+    }
+    .menu_transform3{
+        width: 20px;
+        height: 2px;
+        transform: translateY(10px);
+    }
+    .menu_btn.active .menu_transform1:nth-child(1){
+        transform: translateY(10px) rotate(-45deg);
+    }
+    .menu_btn.active .menu_transform3:nth-child(3){
+        transform: translateY(6px) rotate(45deg);
+    }
+    .playlist_tab.open{
+        width: 270px;
+        height: 100px;
+        
+        font-size: 20px;
+    }
+    .playlist_tab{
+        width: 270px;
+        height: 100px;
+        
+        font-size: 20px;
+    }
+    .mute_volume,
+    .volume_slider,
+    .input{
+        display: none;
+    }
+    .instruments{
+        position: absolute;
+        top: 30px;
+        left: -130px;
+
+    }
+    .prev_play_next{
+        width: 150px;
+        margin-left: 25%;
+    }
+    .progress_conteiner{
+        width: 300px;
+        height: 10px;
+        border: 2px solid #491A1A;
+    }
+    .progress{
+        height: 6px;
+        left: -1px;
+    }
+
+.info_main{
+    top: 11.5%;
+    width: 600px;
+    height: 530px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info_head{
+    margin-top: 20px;
+    font-size: 26px;
+}
+.info_text{
+    
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.info_text em{
+    font-size: 20px;
+}
+.info_text strong{
+    font-size: 50px;
+}
+.galery_main{
+    top: 25.5%;
+    width: 600px;
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.galery_head{
+    margin-top: 20px;
+    font-size: 26px;
+}
+.galery_container{
+    margin-top: 5px;
+    margin-left: 1%;
+    width: 98%;
+}
+.fotorama__video-close::after{
+    margin-left: -50px;
+}
+.versus_main{
+    top: 46.5%;
+    width: 600px;
+    height: 1700px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.versus_head{
+    top: 20px;
+    left: 43%;
+    width: 200px;
+    font-size: 24px;
+}
+.text_text1,
+.text_text2,
+.text_text3{
+    width: 95%;
+    height: 1500px;
+}
+.text_head{
+    width: 100px;
+    font-size: 24px;
+    margin-left: 20px;
+    color: #000000;
+}
+.versus_container{
+    position: relative;
+    top: 35px;
+    left: 30px;
+}
+.next_versus{
+    top: -6%;
+    left: 87%;
+    width: 15px;
+    height: 15px;
+}
+.prev_versus{
+    top: -6%;
+    left: 5%;
+    width: 15px;
+    height: 15px;
+}
+.slick-dots li button{
+    width: 10px;
+    height: 10px;
+}
+.slick-dots .slick-active button {
+    width: 15px;
+    height: 15px;
+}
+.slick-list,
+.draggable{
+    height: 812px;
+    width: 95%;
+}
+.versus_container,
+                .lick-initialized,
+                .slick-slider{
+                    height: 812px;
+    width: 95%;
+}
+.verse_head{
+    font-size: 22px;
+}
+.verse_text{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slick-dots{
+    top: 1520px;
+    left: 48%;
+}
+
+.contact_main{
+    top: 90.6%;
+    height: 440px;
+}
+.contact_head{
+    font-size: 24px;
+}
+.contact_content{
+    margin-top: 35px;
+}
+.contact_ul1{
+    width: 300px;
+}
+
+.contact_menu_li{
+    padding: 30px;
+}
+.contact_ul2{
+    width: 300px;
+    margin-top: -4%;
+    margin-left: 60%;
+}
+.contact_icon_seo{
+    margin-top: 15%;
+    
+}
+}
+@media (max-width: 620px){
+    html,body{
+        width: 100%;
+        height: 3900px;
+    }
+    .main{
+        position: absolute;
+        
+        width: 620px;
+        height: 4050px;
+        background: url(./image/background.jpg);
+        background-size: 620px 2100px;
+    }
+    #scrollTop{
+        
+        
+        left: 88%;
+        
+    }
+    .nav{
+        width: 100%;
+        height: 50px;
+        border: 2px solid #691b1b;
+        display: flex;
+        justify-content: space-between;
+    }
+    .icon_menu{
+        width: 40px;
+        height: 40px;
+        margin-top: 0.5%;
+        margin-left: 1%;
+    }
+    .icon_menu:hover{
+            margin-top: 1%;
+            margin-left: 3%;
+            width: 40px;
+            height: 40px;
+            color: #691b1b;
+            
+            transition: 0.1s;
+            }
+    .logo{
+        position: absolute;
+        font-size: 30px;
+        
+        left: 43%;
+    }
+    .logo a:hover{
+            font-size: 30px;
+            color: #691b1b;
+            transition: 0.2s;
+            filter:drop-shadow(0px 0px 2px #8d0000);
+            }
+    .line1{
+        display: none;
+    }
+    .line2{
+        display: none;
+    }
+    .line3{
+        display: none;
+    }
+    .galery{
+        display: none;
+    }
+    .text{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .nav_icon_menu{
+        top: 50px;
+        width: 170px;
+        height: 300px;
+        border: 2px solid #691b1b;
+    }
+    .nav_menu{
+        font-size: 20px;
+    }
+    .nav_menu1{
+        padding: 9px;
+    }
+    .audio_main{
+        top: 1.6%;
+        width: 420px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon_disc{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        top: 5%;
+        left: 24%;
+        border: 3px solid #691b1b;
+    }
+    .icon_disc.active{
+        opacity: 0;
+        transition: 0.2s;
+    }
+    .img_album{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        margin: 100px;
+    }
+    .player_button{
+        position: absolute;
+        top: 60%;
+        left: 45%;
+        width: 200px;
+        height: 100px;
+    }
+    .name{
+        position: absolute;
+        width: 200px;
+        font-size: 20px;
+        top: -15px;
+        left: -4px;
+    }
+    .track{
+        position: absolute;
+        width: 200px;
+        font-size: 18px;
+        top: 20px;
+        left: 1px;
+    }
+    .playlist{
+        position: absolute;
+        width: 270px;
+        height: 100px;
+        top: -85px;
+        left: -75px;
+        
+    }
+    .playlist.open{
+        position: absolute;
+        width: 270px;
+        height: 100px;
+        top: -85px;
+        left: -75px;
+    }
+    .playlist_tab1,
+    .playlist_tab2,
+    .playlist_tab3{
+        width: 200px;
+    }
+    .playlist_track1:hover,
+    .playlist_track2:hover,
+    .playlist_track3:hover{
+            font-size: 20px;
+            color: #8d0000;
+            transition: 0.3s;
+            filter:drop-shadow(0px 0px 30px #8d0000);
+        }
+    .menu_btn{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: -202px;
+        left: 180px;
+    }
+    .menu_transform1{
+        width: 20px;
+        height: 2px;
+    }
+    .menu_transform2{
+        width: 20px;
+        height: 2px;
+        transform: translateY(5px);
+    }
+    .menu_transform3{
+        width: 20px;
+        height: 2px;
+        transform: translateY(10px);
+    }
+    .menu_btn.active .menu_transform1:nth-child(1){
+        transform: translateY(10px) rotate(-45deg);
+    }
+    .menu_btn.active .menu_transform3:nth-child(3){
+        transform: translateY(6px) rotate(45deg);
+    }
+    .playlist_tab.open{
+        width: 270px;
+        height: 100px;
+        
+        font-size: 20px;
+    }
+    .playlist_tab{
+        width: 270px;
+        height: 100px;
+        
+        font-size: 20px;
+    }
+    .mute_volume,
+    .volume_slider,
+    .input{
+        display: none;
+    }
+    .instruments{
+        position: absolute;
+        top: 30px;
+        left: -130px;
+
+    }
+    .prev_play_next{
+        width: 150px;
+        margin-left: 25%;
+    }
+    .progress_conteiner{
+        width: 300px;
+        height: 10px;
+        border: 2px solid #491A1A;
+    }
+    .progress{
+        height: 6px;
+        left: -1px;
+    }
+
+.info_main{
+    top: 11.5%;
+    width: 420px;
+    height: 530px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info_head{
+    margin-top: 20px;
+    font-size: 26px;
+}
+.info_text{
+    
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.info_text em{
+    font-size: 20px;
+}
+.info_text strong{
+    font-size: 50px;
+}
+.galery_main{
+    top: 25.5%;
+    width: 420px;
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.galery_head{
+    margin-top: 20px;
+    font-size: 26px;
+}
+.galery_container{
+    margin-top: 5px;
+    margin-left: 1%;
+    width: 98%;
+}
+.fotorama__video-close::after{
+    margin-left: -50px;
+}
+.versus_main{
+    top: 46.5%;
+    width: 420px;
+    height: 1700px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.versus_head{
+    top: 20px;
+    left: 40%;
+    width: 200px;
+    font-size: 24px;
+}
+.text_text1,
+.text_text2,
+.text_text3{
+    width: 95%;
+    height: 1500px;
+}
+.text_head{
+    width: 100px;
+    font-size: 24px;
+    margin-left: 20px;
+    color: #000000;
+}
+.versus_container{
+    position: relative;
+    top: 35px;
+    left: 20px;
+}
+.next_versus{
+    top: -6%;
+    left: 87%;
+    width: 15px;
+    height: 15px;
+}
+.prev_versus{
+    top: -6%;
+    left: 5%;
+    width: 15px;
+    height: 15px;
+}
+.slick-dots li button{
+    width: 10px;
+    height: 10px;
+}
+.slick-dots .slick-active button {
+    width: 15px;
+    height: 15px;
+}
+.slick-list,
+.draggable{
+    height: 812px;
+    width: 95%;
+}
+.versus_container,
+                .lick-initialized,
+                .slick-slider{
+                    height: 812px;
+    width: 95%;
+}
+.verse_head{
+    font-size: 22px;
+}
+.verse_text{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slick-dots{
+    top: 1520px;
+    left: 48%;
+}
+
+.contact_main{
+    top: 90.6%;
+    height: 440px;
+}
+.contact_head{
+    font-size: 24px;
+}
+.contact_content{
+    margin-top: 35px;
+}
+.contact_ul1{
+    width: 300px;
+}
+
+.contact_menu_li{
+    padding: 30px;
+}
+.contact_ul2{
+    width: 250px;
+    margin-top: -4%;
+    margin-left: 60%;
+}
+.contact_icon_seo{
+    margin-top: 15%;
+    
+}
+}
 @media (max-width: 450px){
     html,body{
         width: 100%;
@@ -1122,7 +1856,6 @@ html,body{
 .contact_main{
     top: 90.6%;
     height: 375px;
-    opacity: 0.8;
 }
 .contact_head{
     font-size: 24px;

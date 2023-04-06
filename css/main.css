@@ -2206,12 +2206,14 @@ input[type=range]::-ms-track {
     left: 87%;
     width: 15px;
     height: 15px;
+    transform: translateY(-50%);
 }
 .prev_versus{
     top: -6%;
     left: 2%;
     width: 15px;
     height: 15px;
+    transform: translateY(-50%);
 }
 .slick-dots li button{
     width: 5px;

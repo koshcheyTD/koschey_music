@@ -621,7 +621,7 @@ input[type=range]::-ms-track {
                     z-index: 2;
                     top: 50%;
                     transform: translateY(-50%);
-                    left: -100px
+                    left: -100px;
                 }
                 .next_versus :hover,
                 .prev_versus :hover{
@@ -1096,16 +1096,18 @@ input[type=range]::-ms-track {
     left: 30px;
 }
 .next_versus{
-    top: -6%;
-    left: 87%;
-    width: 15px;
-    height: 15px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -8%;
 }
 .prev_versus{
-    top: -6%;
-    left: 5%;
-    width: 15px;
-    height: 15px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -13%;
 }
 .slick-dots li button{
     width: 10px;
@@ -1462,16 +1464,12 @@ input[type=range]::-ms-track {
     left: 30px;
 }
 .next_versus{
-    top: -6%;
-    left: 87%;
-    width: 15px;
-    height: 15px;
+    width: 0px;
+    height: 0px;
 }
 .prev_versus{
-    top: -6%;
-    left: 5%;
-    width: 15px;
-    height: 15px;
+    width: 0px;
+    height: 0px;
 }
 .slick-dots li button{
     width: 10px;
@@ -1830,16 +1828,12 @@ input[type=range]::-ms-track {
     left: 20px;
 }
 .next_versus{
-    top: -6%;
-    left: 87%;
-    width: 15px;
-    height: 15px;
+    width: 0px;
+    height: 0px;
 }
 .prev_versus{
-    top: -6%;
-    left: 5%;
-    width: 15px;
-    height: 15px;
+    width: 0px;
+    height: 0px;
 }
 .slick-dots li button{
     width: 10px;
@@ -2202,18 +2196,12 @@ input[type=range]::-ms-track {
     left: 16px;
 }
 .next_versus{
-    top: -6%;
-    left: 87%;
-    width: 15px;
-    height: 15px;
-    transform: translateY(-50%);
+    width: 0px;
+    height: 0px;
 }
 .prev_versus{
-    top: -6%;
-    left: 2%;
-    width: 15px;
-    height: 15px;
-    transform: translateY(-50%);
+    width: 0px;
+    height: 0px;
 }
 .slick-dots li button{
     width: 5px;
